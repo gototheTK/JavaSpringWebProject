@@ -18,6 +18,13 @@
 - 25.2.3 게시물 등록과 첨부파일의 데이터베이스 처리
 #### 25.3 BoardController, BoardService의 처리
 - 25.3.1 BoardServiceImpl 처리
+### Chapter26 게시물의 조회와 첨부파일
+#### 26.1 BoardService와 BoardController 수정
+#### 26.2 BoardController의 변경과 화면처리
+- 26.2.1 게시물 조회 화면의 처리
+- 26.2.2 첨부파일 보여주기
+- 26.2.3 첨부파일 클릭 시 이벤트 처리
+- 26.2.4 원본 이미지 창 
 
 
 
