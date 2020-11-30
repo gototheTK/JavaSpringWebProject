@@ -190,12 +190,12 @@ $(document).ready(function() {
 				
 				str += "<input type='hidden' name='attachList["+i+"].fileName' value='"+jobj.data("filename")+"'>";
 				str += "<input type='hudden' name='attachList["+i+"].uuid' value='"+jobj.data("uuid")+"'>";
-				str += "<input type='hidden' name='attachList["+i+"].uploadPath' value='"+jobj.data("path")+"'";
-				str += "<input tpye='hidden' name='attachList["+i+"].fileType' value='"+jobj.data("type")+"'>";
+				str += "<input type='hidden' name='attachList["+i+"].uploadPath' value='"+jobj.data("path")+"'>";
+				str += "<input type='hidden' name='attachList["+i+"].fileType' value='"+jobj.data("type")+"'>";
 				
 			});
 			
-			formObj.append(str).submit();
+			formObj.append(str);
 		}
 	formObj.submit();
 	});
