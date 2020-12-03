@@ -38,6 +38,18 @@
 - 29.3 BoardAttachMapper 수정
 - 29.4 cron 설정과 삭제 처리
 ## part 7 Spring Web Security를 이용한 로그인 처리
+### Chapter 30 Spring Web Security 소개
+- 30.1 Spring Web Security
+- 30.2 시큐리티가 필요한 URL 설계
+- 30.3 인증(Authentication)과 권한 부여(Authorization-인가)
+### Chapter 31 로그인과 로그아웃 처리
+- 31.1 접근 제한 설정
+- 31.2 단순 로그인 처리
+- 31.3 커스텀 로그인 페이지
+- 31.4 CSRF(Corss-site request forgery)공격과 토큰
+- 31.5 로그인 성공과 AuthenticationSuccessHandler
+- 31.6 로그아웃의 처리와 LogoutSuccessHandler(20/12/3)
+### Chapter 32 JDBC를 이용하는 간편 인증/권한 처리
 
 
 
@@ -60,27 +72,3 @@
 
 
 
-
-
-
-
-
-
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
